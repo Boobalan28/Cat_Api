@@ -1,0 +1,61 @@
+body {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #600;
+    text-align: left;
+}
+
+.navbar-brand:hover {
+    color: #28bcdf;
+}
+
+.nav-link:hover {
+    background-color: #28bcdf;
+    border-radius: 5px;
+}
+
+.container-fluid {
+    background-color: #fd1d1d;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding: 20px;
+}
+
+.back-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.back-img img {
+    width: 600px;
+    min-height: 500px;
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.home-banner-content-container {
+    position: absolute;
+    width: auto;
+    top: 25%;
+    margin-top: 80px;
+
+}
+
+.home-banner-content {
+    color: white;
+    font-size: 1rem;
+    background: rgba(91, 193, 224, 0.87);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#searchbar {
+    margin-left: 200px;
+}
